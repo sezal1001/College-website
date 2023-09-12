@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student record</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <centre>
+        <h2>Student Records</h2>
+    </centre>
+    <table>
+        <tr>
+            <td>
+                <form >
+                    <h3>Student form</h3>
+                    <div>
+                        <label>Full Name</label>
+                        <label class="validation-error hide" id="userNamevalidationError">This field is empty
+                        </label>
+                        <input type="text" name="userName" id="userName" placeholder="Enter the user name">
+                    </div>
+                    <div>
+                        <label>Roll no</label>
+                        <label class="validation-error hide" id="rollNovalidationError">This field is empty
+                        </label>
+                        <input type="text" name="rollNo" id="rollNo" placeholder="Enter the Roll no.">
+
+                    </div>
+                    <div>
+                        <label>Student class</label>
+                        <label class="validation-error hide" id="stdClassvalidationError">This field is empty
+                        </label>
+                        <input type="text" name="stdClass" id="stdClass" placeholder="Enter the student class">
+                    </div>
+                    <div>
+                        <label>Total Subject</label>
+                        <label class="validation-error hide" id="tsubvalidationError">This field is empty
+                        </label>
+                        <input type="text" name="tsub" id="tsub" placeholder="Enter the total subject">
+                    </div>
+                    <div>
+                        <label>Age</label>
+                        <label class="validation-error hide" id="agevalidationError">This field is empty
+                        </label>
+                        <input type="text" name="age" id="age" placeholder="Enter the age">
+                    </div>
+
+                    <div class="st">Submit</div>
+                </form>
+            <td>
+                <table id="stdlist">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Roll no</th>
+                            <th>Class</th>
+                            <th>Total subject</th>
+                            <th>Age</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html> 
